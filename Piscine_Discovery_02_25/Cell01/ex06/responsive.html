@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table Responsive</title>
+    <style>
+        table {
+            width: 100%;
+            max-width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            border: 2px solid skyblue;
+            padding: 15px;
+            text-align: center;
+        }
+
+        caption {
+            background-color: lightgrey;
+            font-weight: bold;
+        }
+
+        th {
+            background-color: blue;
+            color: white;
+        }
+
+        td {
+            background-color: lightblue;
+        }
+
+        /* Rendre le tableau responsive */
+        .table-container {
+            width: 100%;
+            overflow-x: auto; /* Ajoute un défilement horizontal si besoin */
+        }
+    </style>
+</head>
+<body>
+    <div class="table-container">
+        <table>
+            <tr>
+                <td>One</td>
+                <td>Two</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>

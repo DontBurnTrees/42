@@ -1,0 +1,70 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    overflow-x: hidden;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.card {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 300px;
+    text-align: center;
+}
+
+.card .pdp img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.card .usr p {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+.card .bio p {
+    font-size: 1em;
+    color: #555;
+}
+
+.title {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.contact {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.contact button {
+    padding: 10px 20px;
+    font-size: 1em;
+    color: #fff;
+    background-color: #858686;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s ease;
+}
+
+.contact button {
+    border-top: 3px solid #69cbf8;
+    border-radius: 4px;
+}
+
+.contact button:hover {
+    background-color: #8b9eb3;
+    transform: scale(1.3);
+}

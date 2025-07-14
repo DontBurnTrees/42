@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cell03 ex01</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .counter {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            background-color: rgba(0, 0, 0, 0.7);
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        .main {
+            display: grid;
+            place-items: center;
+            height: 100vh;
+        }
+        .text {
+            background-color: red;
+            color: white;
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transition: background-color 0.2s, width 0.2s, height 0.2s;
+        }
+    </style>
+</head>
+<body>
+    <div class="counter" id="counter">Largeur: 200px, Hauteur: 200px</div>
+    <div class="main">
+        <div class="text" id="clickable"></div>
+    </div>
+
+    <script>
+        const clickable = document.getElementById('clickable');
+        const counter = document.getElementById('counter');
+        let currentColorIndex = 0;
+        const colors = ['red', 'green', 'blue'];
+
+        clickable.addEventListener('click', function() {
+            currentColorIndex = (currentColorIndex + 1) % colors.length;
+            clickable.style.backgroundColor = colors[currentColorIndex];
+
+            let currentWidth = parseFloat(getComputedStyle(clickable).width);
+            let currentHeight = parseFloat(getComputedStyle(clickable).height);
+
+            if (currentHeight > 410) {
+                clickable.style.width = '200px';
+                clickable.style.height = '200px';
+            } else {
+                clickable.style.width = (currentWidth + 10) + 'px';
+                clickable.style.height = (currentHeight + 10) + 'px';
+            }
+
+            updateCounter();
+        });
+
+        clickable.addEventListener('mouseleave', function() {
+            let currentWidth = parseFloat(getComputedStyle(clickable).width);
+            let currentHeight = parseFloat(getComputedStyle(clickable).height);
+
+            if (currentWidth > 205 && currentHeight > 205) {
+                clickable.style.width = (currentWidth - 5) + 'px';
+                clickable.style.height = (currentHeight - 5) + 'px';
+            }
+
+            updateCounter();
+        });
+
+        function updateCounter() {
+            let currentWidth = parseFloat(getComputedStyle(clickable).width);
+            let currentHeight = parseFloat(getComputedStyle(clickable).height);
+            counter.textContent = `Largeur: ${currentWidth}px, Hauteur: ${currentHeight}px`;
+        }
+    </script>
+</body>
+</html>
