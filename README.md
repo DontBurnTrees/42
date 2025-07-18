@@ -1,4 +1,4 @@
-## 🧠 C Piscine Curriculum
+## 42 Piscine 
 
 | #  | Subject        | Language | Duration         | Status        |
 |----|----------------|----------|------------------|---------------|
