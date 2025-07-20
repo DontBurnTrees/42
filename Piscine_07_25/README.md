@@ -2,7 +2,7 @@
 
 | #  | Subject        | Language | Duration         | Status        |
 |----|----------------|----------|------------------|---------------|
-| 01 | Shell 00       | Shell    | ~2 days          | ✅ 72%        |
+| 01 | [Shell 00](https://github.com/DontBurnTrees/42/tree/main/Piscine_07_25/Shell_00)       | Shell    | ~2 days          | ✅ 72%        |
 | 02 | [Shell 01](https://github.com/DontBurnTrees/42/tree/main/Piscine_07_25/Shell_01)       | Shell    | ~3 days          | ❌ 0%         |
 | 03 | [C 00](https://github.com/DontBurnTrees/42/tree/main/Piscine_07_25/C_00)           | C        | ~4 days          | ✅ 50%        |
 | 04 | [C 01](https://github.com/DontBurnTrees/42/tree/main/Piscine_07_25/C_01)           | C        | ~3 days          | ✅ 50%        |
