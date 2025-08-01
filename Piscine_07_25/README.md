@@ -3,7 +3,7 @@
 | #  | Subject        | Language | Duration         | Status        |
 |----|----------------|----------|------------------|---------------|
 | 01 | [Shell 00](https://github.com/DontBurnTrees/42/tree/main/Piscine_07_25/Shell_00)       | Shell    | ~2 days          | ✅ 72%        |
-| 02 | [Shell 01](https://github.com/DontBurnTrees/42/tree/main/Piscine_07_25/Shell_01)       | Shell    | ~3 days          | ❌ 0%         |
+| 02 | [Shell 01](https://github.com/DontBurnTrees/42/tree/main/Piscine_07_25/Shell_01)       | Shell    | ~3 days          | ✅ 55%         |
 | 03 | [C 00](https://github.com/DontBurnTrees/42/tree/main/Piscine_07_25/C_00)           | C        | ~4 days          | ✅ 50%        |
 | 04 | [C 01](https://github.com/DontBurnTrees/42/tree/main/Piscine_07_25/C_01)           | C        | ~3 days          | ✅ 50%        |
 | 05 | [C 02](https://github.com/DontBurnTrees/42/tree/main/Piscine_07_25/C_02)           | C        | ~2 days          |               |
@@ -19,5 +19,5 @@
 | 04 | BSQ            | C        |                  |               |
 | 01 | Exam 00        | C        | ~4 hours         | ❌ 10%        |
 | 02 | Exam 01        | C        | ~2 hours         | ✅ 30%        |
-| 03 | Exam 02        | C        |                  |               |
-| 04 | Final Exam     | C        |                  |               |
+| 03 | Exam 02        | C        |                  | ❌ 20%        |
+| 04 | Final Exam     | C        |                  | ❌ 24%        |
