@@ -8,7 +8,7 @@ command is used on it.
 - Learn how to create a file using command line
 - Practice basic file writing and redirection
 
-## Solution
+## Solutions
 
 1. 
     `touch z` *use this command to create the file*
