@@ -1,8 +1,7 @@
 int     ft_strncmp(char *s1, char *s2, unsigned int n)
 {
-        unsigned int    count;
+        unsigned int count = 0;
 
-        count = 0;
         while (count < n && *s1 && *s1 == *s1)
         {
                 count++;
