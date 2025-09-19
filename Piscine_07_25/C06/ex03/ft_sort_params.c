@@ -23,9 +23,6 @@ int	main(int argc, char **argv)
 		x++;
 	}
 
-
-
-
 	while (i < argc)
 	{
 		int	 y = 0;
